@@ -56,3 +56,30 @@ eg :-
         ------
         2
         10
+```
+
+## **Escaping literal Quotes**
+How to use quotes in a string.
+```
+var s = "I am a "good boy" who lives near your "House"";
+```
+
+The above stament will cause an error. so to solve it we can use an escape character
+
+```
+var s = "I am a \"good boy\" who lives near your \"House"";
+
+Output
+------
+I am a "good boy" who lives near your "House"
+```
+
+```
+NOTE:-
+You can write a string in a single quote('') and can use double quote("") inside the sting
+
+eg : var s = 'I am a "good boy" who lives near your "House"'
+
+Output
+I am a "good boy" who lives near your "House"
+```
