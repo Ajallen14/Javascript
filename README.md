@@ -5,16 +5,16 @@ eg : var n = 5; //this is an inline comment
 ```
 
 * **multi-line comment** : 
-        ```
-        eg : /*
-        var n = 5;
-        var d = 10;
-        aefdsf
-        fdf
-        dfggdfv
-        sdfvf
-        */
-        ```
+``` 
+ /*
+var n = 5;
+var d = 10;
+aefdsf
+fdf
+dfggdfv
+sdfvf
+*/
+```
 ## **Data types and variables**
 1) **undefined** : Something that hasn't been defined
     
@@ -41,3 +41,18 @@ eg : var n = 5; //this is an inline comment
 * A variable which can never change.
 * eg :  const pi = 3.14;
 
+----------------------------------------------
+----------------------------------------------
+
+**console.log(variable_name)** : allows u to see things in console
+```
+eg :-
+        var a = 2;
+        consol.log(a);
+        a = 10;
+        console.log(a);
+
+        Output
+        ------
+        2
+        10
