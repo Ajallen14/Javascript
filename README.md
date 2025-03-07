@@ -26,21 +26,16 @@
  5) **numbers**
 
 6) **object**
-    Can store different key value pair
+        Can store different key value pair
 
 ## **Declare variable**
-1) **using var**sed throughout the prog.
-    * It is going to be able to be u
-    * eg : var n = "Fruits";
+1) **using var** 
+* variable can be used throughout the program.
+* eg : var n = "Fruits";
 
 2) **using let**
-    * will onwhere u devly be used within the scope 
-        let n = "Fruits";
+* Can only be used within the scope of where u decleared.
+* eg : let n = "Fruits";
 
 3) **using const**
-
-
-
-
-
-using const**
+* eg :  const pi = 3.14;
