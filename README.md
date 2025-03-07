@@ -64,7 +64,7 @@ How to use quotes in a string.
 var s = "I am a "good boy" who lives near your "House"";
 ```
 
-The above stament will cause an error. so to solve it we can use an escape character
+The above stament will cause an error. So to solve it we can use an escape character
 
 ```
 var s = "I am a \"good boy\" who lives near your \"House"";
@@ -81,5 +81,14 @@ You can write a string in a single quote('') and can use double quote("") inside
 eg : var s = 'I am a "good boy" who lives near your "House"'
 
 Output
+------
 I am a "good boy" who lives near your "House"
+
+If u use backticks(`), then you can use both single quotes(') and double quotes(") in the string.
+
+eg : var s = `I 'am' a "good boy" who 'lives' near your "House"`
+
+Output
+------
+I 'am' a "good boy" who 'lives' near your "House"
 ```
