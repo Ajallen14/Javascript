@@ -105,3 +105,15 @@ ${} : lets u add numbers dirctly into a string.
 Output
 ------
 Items(7)
+```
+We can also write multi line string with backticks.
+
+```
+eg : 
+     `hello 
+      world
+      sdhbsdj
+      dshdcbsjdcbdjhc
+      shsch
+      `
+```
