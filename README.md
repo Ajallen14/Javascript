@@ -84,7 +84,7 @@ Output
 ------
 I am a "good boy" who lives near your "House"
 
-If u use backticks(`), then you can use both single quotes(') and double quotes(") in the string.
+If u use backticks(`), then you can use both single quotes(') and double quotes(") in the string. Strings made using these are called templete strings.
 
 eg : var s = `I 'am' a "good boy" who 'lives' near your "House"`
 
