@@ -74,21 +74,34 @@ Output
 I am a "good boy" who lives near your "House"
 ```
 
-```
-NOTE:-
+
+**NOTE**:-
 You can write a string in a single quote('') and can use double quote("") inside the sting
 
+```
 eg : var s = 'I am a "good boy" who lives near your "House"'
 
 Output
 ------
 I am a "good boy" who lives near your "House"
+```
 
 If u use backticks(`), then you can use both single quotes(') and double quotes(") in the string. Strings made using these are called templete strings.
 
+```
 eg : var s = `I 'am' a "good boy" who 'lives' near your "House"`
 
 Output
 ------
 I 'am' a "good boy" who 'lives' near your "House"
 ```
+You can also use backticks for inserting values into a string directly
+
+```
+eg : `Items(${2 + 5})`
+
+${} : lets u add numbers dirctly into a string.
+
+Output
+------
+Items(7)
