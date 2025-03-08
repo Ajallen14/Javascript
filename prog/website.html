@@ -1,0 +1,31 @@
+<html>
+    <head> <!--everything which is not visible in a webgage-->
+        <title>
+            Sample website
+        </title>
+        <style>
+            .red-button{
+                background-color: red;
+                color: whitesmoke;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body> <!--everything which is visible in a webpage-->
+        <button title="can c when u hover" class="red-button" 
+        onclick="
+            alert('Yeyyyyyy')
+        "> <!--Contents in the 'onclick' attribute run after, when the button is clicked-->
+            Hello
+        </button>
+
+        <p>
+            Blah Blahhhhh Blahhhhhhhhh <button>hello</button>
+        </p>
+
+        <script> <!--Contents in the on script elements run 1st, when the page is loaded-->
+            alert('Hello');
+        </script>
+    </body>
+</html>
