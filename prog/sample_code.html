@@ -4,12 +4,36 @@
     </head>
 
     <body> 
-        <button>SHow Quantity</button>
-        <button>Add to Cart</button>
-        <button>+2</button>
-        <button>+3</button>
-        <button>Reset Cart</button>
+        <button
+        onclick="
+        console.log(`Cart quantity = ${cart_quant}`);
+        ">
+            Show Quantity
+        </button>
+
+        <button
+        onclick="
+        cart_quant += 1;
+        console.log('Item added');
+        ">Add to Cart</button>
+
+        <button
+        onclick="
+        cart_quant += 2;
+        ">+2</button>
+
+        <button
+        onclick="
+        cart_quant += 3;
+        ">+3</button>
+
+        <button
+        onclick="
+        cart_quant = 0;
+        ">Reset Cart</button>
+
         <script> 
+        let cart_quant = 0;
         </script>
     </body>
 </html>
