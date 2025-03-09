@@ -117,3 +117,24 @@ eg :
       shsch
       `
 ```
+
+## Double equal to (==) and triple equal to(===)
+
+* **Double equal to (==)** : converts both value into the same type 
+
+```
+eg : 3 == '3'
+
+Output
+------
+True
+```
+* **Triple equal to (===)** : Do not convert both value into the same type.
+
+```
+eg : 3 === '3'
+
+Output
+------
+False
+```
