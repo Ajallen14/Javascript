@@ -138,3 +138,4 @@ Output
 ------
 False
 ```
+**Note** : It is same for not equal to. We use !== instead of !=.
