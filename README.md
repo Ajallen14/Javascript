@@ -150,3 +150,33 @@ Keyword for creating a function is '**funtion**'
 - Can't use special character except: $, _ .
 
 (Camelcase is recomended)
+
+## [Object]()
+
+Objects group multiple values together.
+
+```
+const prod = {
+                pro_name : 'Socks',
+                price : 10000,
+            };
+```
+
+Here name and price are known as **property**. Using property we can access specific values in the object.
+
+```
+console.log(prod.pro_name);
+```
+This will access the value associated with the name 'pro_name'.
+
+If you wanna change the value of a property u can change it using
+```
+prod.name = 'Cotton Socks';
+console.log(prod.name)
+the name will change from 'Socks' to 'Cotton socks'.
+```
+
+To remove a property from the object use the keyword 'delete'
+```
+delete prod.price;
+```
