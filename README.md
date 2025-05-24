@@ -151,6 +151,8 @@ Keyword for creating a function is '**funtion**'
 
 (Camelcase is recomended)
 
+Funtions are also treated as **values** in the javascript.
+
 ## [Object]()
 
 Objects group multiple values together.
@@ -193,5 +195,17 @@ If it is a string between the brackets, the brackets are optional
 const prod = {
                 name : 'Socks',
                 'delivery-time' : '2 days',
+            };
+```
+**Nested Object**
+```
+const prod = { // Object
+                name : 'Socks',
+                price : 10000,
+                ['delivery-time'] : '2 days',
+                rating : { //nested Object
+                    stars : 4.5,
+                    count : 87,
+                }
             };
 ```

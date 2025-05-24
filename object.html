@@ -10,7 +10,13 @@
                 name : 'Socks',
                 price : 10000,
                 ['delivery-time'] : '2 days',
-                rating : 
+                rating : { //nested Object
+                    stars : 4.5,
+                    count : 87,
+                },
+                fun : function f1(){
+                    console.log('Blahh blahh');
+                }
             };                  
 
             console.log(prod);
@@ -24,6 +30,9 @@
 
             console.log(prod['delivery-time']);
 
+            console.log(product.rating.stars);
+
+            prod.fun();
         </script>
     </body>
 </html>
