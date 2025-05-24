@@ -180,3 +180,18 @@ To remove a property from the object use the keyword 'delete'
 ```
 delete prod.price;
 ```
+**Bracket Notation** lets us use properties that don't work with dot notation.
+
+```
+const prod = {
+                name : 'Socks',
+                ['delivery-time'] : '2 days',
+            };
+```
+If it is a string between the brackets, the brackets are optional
+```
+const prod = {
+                name : 'Socks',
+                'delivery-time' : '2 days',
+            };
+```

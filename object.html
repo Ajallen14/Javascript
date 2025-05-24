@@ -9,7 +9,8 @@
             const prod = {
                 name : 'Socks',
                 price : 10000,
-            }; // Object
+                ['delivery-time'] : '2 days',
+            };                  // Object
 
             console.log(prod);
             console.log(prod.name);
@@ -19,6 +20,10 @@
 
             delete prod.price;
             console.log(prod);
+
+            console.log(prod['delivery-time']);
+
+
         </script>
     </body>
 </html>
