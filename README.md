@@ -209,3 +209,9 @@ const prod = { // Object
                 }
             };
 ```
+
+**Local Storage**
+Only supports string
+
+```
+localStorage.setItem('msg', 'Hellooo');
