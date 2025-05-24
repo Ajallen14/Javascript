@@ -139,3 +139,13 @@ Output
 False
 ```
 **Note** : It is same for not equal to. We use !== instead of !=.
+
+## [Funtions](https://github.com/Ajallen14/Javascript/blob/main/funtions.html)
+
+Keyword for creating a function is '**funtion**'
+
+**Rules for naming a function** :-
+        - Can't use special words. eg : funtion
+        - Can't start with a number.
+        - Can't use special character except: $, _ .
+(Camelcase is recomended)
