@@ -145,7 +145,8 @@ False
 Keyword for creating a function is '**funtion**'
 
 **Rules for naming a function** :-
-        - Can't use special words. eg : funtion
-        - Can't start with a number.
-        - Can't use special character except: $, _ .
+- Can't use special words. eg : funtion
+- Can't start with a number.
+- Can't use special character except: $, _ .
+
 (Camelcase is recomended)

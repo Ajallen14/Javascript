@@ -6,12 +6,25 @@
 
     <body>
         <script>
-            function f1() {
+            function f1() { //Function
                 console.log("Hellow");
-                console.log(2 + 2);
+                console.log(2+2);
+                return 5;
             }
 
             f1(); //Funtion call
+
+            function calTax(n){ //Function using parameter
+                console.log(n * 0.1);
+            }
+
+            calTax(2000)
+
+            function calTaxPer(n, per){ //Function using parameter
+                console.log(n * per);
+            }
+
+            calTaxPer(2000, 3)
         </script>
     </body>
 </html>
