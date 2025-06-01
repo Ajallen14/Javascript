@@ -175,9 +175,8 @@ If you wanna change the value of a property u can change it using
 ```
 prod.name = 'Cotton Socks';
 console.log(prod.name)
-the name will change from 'Socks' to 'Cotton socks'.
 ```
-
+The name will change from 'Socks' to 'Cotton socks'.
 To remove a property from the object use the keyword 'delete'
 ```
 delete prod.price;
@@ -215,3 +214,15 @@ Only supports string
 
 ```
 localStorage.setItem('msg', 'Hellooo');
+```
+
+**Properties and Methods**
+
+* length : finds the lenth of the string
+```
+console.log('hello'.length);
+```
+
+* **toUpperCase** : makes a string to Upper case
+```
+ console.log('hello'.toUpercase);
