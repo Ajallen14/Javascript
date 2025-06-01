@@ -252,4 +252,14 @@ console.log('hello'.length);
                         +--------+
                         Special Object
 ```
+**Destructuring**
+* It is an easier way to take properties out of an object.
+* If the variable name and property name is same. We can write it as below
+```
+const message = object1.message;
 
+is same as writing:-
+ 
+const {message} = object1
+```
+Here the it will take the 'message' property out of the 'object1' and save it in a variable called message.
