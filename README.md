@@ -252,6 +252,7 @@ console.log('hello'.length);
                         +--------+
                         Special Object
 ```
+
 **Destructuring**
 * It is an easier way to take properties out of an object.
 * If the variable name and property name is same. We can write it as below
@@ -263,3 +264,22 @@ is same as writing:-
 const {message} = object1
 ```
 Here the it will take the 'message' property out of the 'object1' and save it in a variable called message.
+
+**Shorthand Property**
+If the property and variable name are same we can write it once.
+
+eg:
+```
+const object1 = {
+    message : message  ------> Variable
+};      |
+        +-----> Property
+
+It takes whatever is in the 'message' variable and substitute into the code
+
+is same as writing:-
+
+const object1= {
+    message
+};
+```
