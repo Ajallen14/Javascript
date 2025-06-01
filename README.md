@@ -221,8 +221,35 @@ localStorage.setItem('msg', 'Hellooo');
 * length : finds the lenth of the string
 ```
 console.log('hello'.length);
+
+OUTPUT
+------
+
+5
 ```
 
 * **toUpperCase** : makes a string to Upper case
 ```
  console.log('hello'.toUpercase);
+
+ OUTPUT
+------
+
+HELLO
+```
+
+**Auto-Boxing**
+
+JS automatically wraps a string in speacial object first and then this object is used for further nedds. It is done automatically. It also works with other values like numbers and boolean but it does not work with null and undefined.
+eg :
+
+```
+console.log('hello'.length);
+                |
+                |
+                +-----> +--------+
+                        | hello  |
+                        +--------+
+                        Special Object
+```
+
