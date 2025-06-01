@@ -283,3 +283,6 @@ const object1= {
     message
 };
 ```
+
+## Document Oject Model (DOM)
+
