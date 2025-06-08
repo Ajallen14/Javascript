@@ -5,8 +5,19 @@
     </head>
     
     <body>
-        <script>
+        <button>Button 1</button>
+        <button class="js-button">Button 2</button>
 
+        <script>
+            document.body.innerHTML = 'Changed body';
+            document.title = 'Change title';
+
+            document.body.innerHTML = '<button> Button changed</button>';
+
+            document.querySelector('button');
+            document.querySelector('button').innerHTML = 'Changed';
+
+            document.querySelector('.js-button');
         </script>
     </body>
 </html>

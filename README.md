@@ -286,3 +286,41 @@ const object1= {
 
 ## Document Oject Model (DOM)
 
+* DOM is an another buit in object called **document object**
+* eg :
+```
+document.body.innerHTML = 'Hello';
+
+'innerHTML' controls everything inside '<body> </body>'. 
+``` 
+In the above example it removes everything on the page and only displays 'hello'
+
+```
+document.title = 'Good job';
+```
+It changes the title of the webpage.
+
+* So basically **document object** represents or models the webpage.
+* DOM combines JS and HTML together.
+* HTML element is converted to a JS object.
+
+**document.querySelector()** : It lets us get any elemnet fromm the page and put it inside JS.
+eg: 
+```
+document.querySelector('button');
+```
+It takes the 1st button from the page and puts it in JS.
+
+```
+document.querySelector('button').innerHTML = 'Changed';
+```
+It changes the HTML element inside a button.
+
+If you want to access a 2nd button you can access it by making it a class and labeling it.
+```
+<button class="js-button">Button 2</button>
+```
+and you can access it using :
+```
+document.querySelector('.js-button');
+```
