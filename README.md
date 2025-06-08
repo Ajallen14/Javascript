@@ -284,7 +284,7 @@ const object1= {
 };
 ```
 
-## Document Oject Model (DOM)(https://github.com/Ajallen14/Javascript/blob/main/prog/DOM.html)
+## [Document Oject Model (DOM)](https://github.com/Ajallen14/Javascript/blob/main/prog/DOM.html)
 
 * DOM is an another buit in object called **document object**
 * eg :
